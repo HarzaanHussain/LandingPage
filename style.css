@@ -1,0 +1,107 @@
+.Header, .hMain{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding: 3px;
+    gap: 3px;
+    justify-content: space-between;
+
+}
+.hMain{
+
+    font-size: large;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-self: flex-start;
+    
+}
+.Header{
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    background-color: #1f2937;
+    color: white;
+    padding-top: 50px;
+    
+    
+}
+.textcont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+.webInfo{
+    width: 500px;
+    height: auto;
+    font-size: 48px;
+    font-weight: bolder;
+    align-self: flex-start;
+    
+}
+.webDes{
+    display: block;
+    font-size: 18px;
+    width: 500px;
+    height: auto;
+    align-self: flex-start;    
+}
+.signUp{
+    font-size: 18px;
+    background-color: #0759fe;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.LogoPlaceHolder{
+    /*margin-left: 500px;*/
+    align-self: flex-end;
+}
+
+#imageLogo{
+    width: 700px;
+    height: 150px;
+    object-fit: cover; 
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    margin: 25px;
+}
+.random_info{
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+.imgPlaceHolder{
+    display: flex;
+    margin-top: 25;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#img1, #img2, #img3, #img4{
+    max-width: 25%;
+    max-height: 25%;
+}
+.Cont2 {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.option1{
+    text-align: center;
+}
+
